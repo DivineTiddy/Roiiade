@@ -1,5 +1,6 @@
 import Nav from "../Components/Nav";
 import "../Components/Footer.css";
+import { Link } from "react-router-dom";
 
 const Join = () => {
   return (
@@ -7,7 +8,7 @@ const Join = () => {
     <div className="h-auto flex flex-col  justify-end w-[343px]  ">
       <section className="flex flex-col justify-between  h-[350px] ">
         <Nav />
-        <div className="my-10">
+        <div className="my-13">
           <p className="text-[60px] font-extrabold w-full  text-[#FFFFFF] leading-[89.9%] ">
             Join to building the future.
           </p>
@@ -21,7 +22,7 @@ const Join = () => {
       {
         //...........................
       }
-      <section className="  h-[233px] w-[100%] ">
+      <section className="my-5  h-[273px] w-[100%] ">
         <div className="brands ">
           <button className="item item1 flex justify-around items-center bg-[#1D1B26]  h-[41px] rounded-[10px]">
             <svg
@@ -147,6 +148,7 @@ const Join = () => {
       }
      
     </div>
+    <Link to="/future" className="w-full">
     <button className="flex items-center text-[#FFFFFF] font-bold text-[16px] justify-around bg-gradient-to-r from-[#0500FF] via-[#4440FF] to-[#0500FF] w-[100%] h-[103px] ">
         <span>EXPLORE THE FUTURE</span>
         <svg
@@ -162,6 +164,7 @@ const Join = () => {
           />
         </svg>
       </button>
+    </Link>
     </>
   );
 };
