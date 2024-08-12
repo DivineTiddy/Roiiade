@@ -19,7 +19,7 @@ const Footer = () => {
         
       </div>
       <Link to="/Join">
-      <button className="flex justify-center items-center w-[63px] h-[63px] rounded-[78px] bg-[#3632FF]">
+      <button className="animate-bounce  flex justify-center items-center w-[63px] h-[63px] rounded-[78px] bg-[#3632FF]">
       <svg
           width="55"
           height="54"
